@@ -26,3 +26,18 @@ $ npm init @eslint/config
 Successfully created .eslintrc.js file in /home/bunta/workspace/api-node/restful-api-node
 ```
 
+## ExpressでHTTPサーバーを作り、APIを用意する
+```
+$ touch index.js
+```
+ポート3000で待ち受けるHTTPサーバを構築。 GETメソッドで呼び出されると、ステータスコード200で"Hello World"を返却するAPIを準備する。
+
+## 動作確認する
+コンソールで以下を入力すると、Nodeプログラムが実行される。
+```
+$ node index.js
+```
+Example app listening on port 3000!
+
+⇒WebブラウザやHTTPリクエストツールでAPIをたたいてみる。
+応答が返却されたことを確認する。
