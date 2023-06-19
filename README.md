@@ -41,3 +41,21 @@ Example app listening on port 3000!
 
 ⇒WebブラウザやHTTPリクエストツールでAPIをたたいてみる。
 応答が返却されたことを確認する。
+
+## パスパラメータに応じてJSONデータを返却するAPI
+APIを実践に近づける。
+メンバーのリストを紹介できるAPIとする。
+
+【仕様】
+・パスパラメータ無しでアクセスされた場合、全メンバーの情報リストを返却する。
+・パスパラメータがにメンバーIDを入れた場合、該当するメンバーIDの情報を返却する。
+
+【結果】
+http://localhost:3000/members
+[{"id":"1","name":"Taro","team":"A"},{"id":"2","name":"Jiro","team":"B"},{"id":"3","name":"Saburo","team":"A"}]
+
+
+http://localhost:3000/members/2
+[{"id":"2","name":"Jiro","team":"B"}]
+
+
