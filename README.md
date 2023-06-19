@@ -51,11 +51,11 @@ APIを実践に近づける。
 ・パスパラメータがにメンバーIDを入れた場合、該当するメンバーIDの情報を返却する。
 
 【結果】
+```
 http://localhost:3000/members
 [{"id":"1","name":"Taro","team":"A"},{"id":"2","name":"Jiro","team":"B"},{"id":"3","name":"Saburo","team":"A"}]
 
 
 http://localhost:3000/members/2
 [{"id":"2","name":"Jiro","team":"B"}]
-
-
+```
