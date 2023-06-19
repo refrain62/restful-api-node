@@ -6,3 +6,8 @@ https://bunsugi.com/rest-api-node-express-2 の写経
 $ npm init -y
 ```
 
+## expressのインストール
+```
+$ npm install express
+```
+
